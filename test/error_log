@@ -1,0 +1,4 @@
+[07-Sep-2012 10:54:23 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Host '208.76.248.194' is not allowed to connect to this MySQL server in /home/ullalaul/public_html/test/db.php on line 4
+[07-Sep-2012 10:54:23 UTC] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/ullalaul/public_html/test/db.php on line 5
+[07-Sep-2012 10:54:23 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/ullalaul/public_html/test/db.php on line 11
+[07-Sep-2012 10:54:23 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in /home/ullalaul/public_html/test/db.php on line 14

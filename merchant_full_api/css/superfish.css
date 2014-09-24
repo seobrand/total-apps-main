@@ -1,0 +1,153 @@
+.sf-menu, .sf-menu * {margin:0;padding:0;list-style:none;}
+.sf-menu{ float:left;}
+.sf-menu li {position:relative; float:left; display:inline;  }
+	.sf-menu li a {	font: normal 16px HelveticaNeueLTStdLtCnRegular, Arial;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 6px;
+	margin:0 4px;
+	display: block;
+    float: left;position:relative;}
+	
+	.sf-menu li.current,.sf-menu li.sfHover,.sf-menu li:hover{color:#ff9e00;}
+		.sf-menu li.current a,.sf-menu li.sfHover a,.sf-menu li a:hover{ color:#ff9e00; text-decoration:none;}
+		.sf-menu li.current a span.arrow,.sf-menu li.sfHover a span.arrow,.sf-menu li a:hover span.arrow{ background-position:0 -4px;}
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	z-index:		99;
+	width:			300px; 
+	display:none;
+	background:#236d9c;
+	border-radius:5px;
+	padding:15px 0 12px;
+}
+.sf-menu li li{padding:0 10px 10px; border-radius:0; background:none; width:115px;}
+.sf-menu li li:hover,.sf-menu li li.sfHover,.sf-menu li li.current{background:none;}
+	.sf-menu li li a,.sf-menu li.sfHover li a,.sf-menu li.current li a{ color:#fff; padding:0; background:none;}
+		.sf-menu li li a:hover,.sf-menu li li.sfHover a,.sf-menu li li.current a{color:#ff9e00;}
+.sf-menu ul ul {
+	position:		absolute;
+	top:			-999em;
+	z-index:		99;
+	width:			123px; 
+	display:none;
+	background:#1d1d1d url(../images/submenu.jpg) 0 0 repeat-x;
+}
+	.sf-menu li li li a,.sf-menu li li.sfHover li a,.sf-menu li li.current li a{ color:#fff; }
+		.sf-menu li li li a:hover,.sf-menu li li li.current a{color:#00afbe;}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0px;
+	top:			40px; /* match top ul list item height */
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			122px; /* match ul width */
+	top:			-30px;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			00px;
+}
+.sf-menu li a span.arrow{ display:block; background:url(../images/menu-arrow.png) 0 0 no-repeat; width:7px; height:4px; position:absolute; bottom:17%; right:2px;}
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+	
+	.sf-menu li a {
+color: #FFFFFF;
+display: block;
+float: left;
+font: 14px HelveticaNeueLTStdLtCnRegular,Arial;
+margin: 0;
+padding: 8px 5px;
+position: relative;
+text-decoration: none;	
+	}
+	.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0px;
+	top:			33px; /* match top ul list item height */
+}
+}
+
+@media only screen and (max-width: 767px) {
+	.sf-menu {
+    float: none;
+}
+	.sf-menu li{padding:0;float: none; margin-bottom:3px; border-radius:0; background:none !important;}
+	.sf-menu li a{   background: url(../images/main_nav.gif) repeat-x scroll 0 0 transparent;
+  border-radius: 3px 3px 3px 3px;
+  color: #FFFFFF;
+  display: block;
+  float: none;
+  font: 16px/16px HelveticaNeueLTStdLtCnRegular,Arial;
+  margin: 0 0 5px;
+  padding: 8px 4px 7px 10px;
+  text-decoration: none;
+	}
+
+
+.sf-menu li li {
+  background: none repeat scroll 0 0 transparent;
+  border-radius: 0 0 0 0;
+  float: none;
+  padding: 0 10px;
+  width:inherit;
+}
+
+.sf-menu li:hover ul, .sf-menu li.sfHover ul {
+  left: 0;
+  top: 14px;
+}
+.sf-menu ul,.sf-menu ul ul{ min-width:inherit;position: relative; left: 0 !important; top:0px !important;padding:8px 0 0px 8px;width: 262px; margin-bottom:6px;}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.sf-menu{ float:none;}
+	.sf-menu li{padding:0;float: none; margin-bottom:3px; border-radius:0; background:none !important;}
+	.sf-menu li a{   background: url(../images/main_nav.gif) repeat-x scroll 0 0 transparent;
+  border-radius: 3px 3px 3px 3px;
+  color: #FFFFFF;
+  display: block;
+  float: none;
+  font: 16px/16px HelveticaNeueLTStdLtCnRegular,Arial;
+  margin: 0 0 5px;
+  padding: 8px 4px 7px 10px;
+  text-decoration: none;
+	}
+		.sf-menu li.current a,.sf-menu li.sfHover a,.sf-menu li a:hover{  background: url(../images/main_nav.gif) repeat-x scroll 0 0 transparent;}
+		.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0px;
+	padding-left:10px;
+	margin-bottom:6px;
+	top:			36px; /* match top ul list item height */
+}
+	.sf-menu ul,.sf-menu ul ul{ min-width:100%;position: relative; left: 0 !important; top:0px !important;padding:15px 0;}
+	
+	.sf-menu li li a {
+  border: medium none;
+  margin:0;
+  padding:0;
+}
+	.sf-menu li li li a{ margin-left:10px !important;}
+	.sf-menu li a span.arrow{bottom:45%; left:100px;}
+	.sf-menu ul{ width:410px; min-width:inherit;overflow:hidden;} 
+	.sf-menu li li {
+  background: none repeat scroll 0 0 transparent;
+border-radius: 0 0 0 0;
+float: left;
+padding: 0 10px;
+width: 182px;
+}
+
+
+	}

@@ -1,0 +1,192 @@
+/*(min-width: 768px) and (max-width: 995px) */
+#header_middle_inner {
+    width: 48em;
+	padding:0;
+}
+.slider_text {
+    width: 26em;
+}
+
+#header_top_inner{ width: 48em; }
+#header_top_left {
+    float: left;
+    width: 30.875em;
+}
+#navigation{background:url(../images/nav_bar_small.gif) no-repeat left top;}
+#navigation ul.main_nav li a, #navigation ul.nav_other li a {
+    font: 14px HelveticaNeueLTStdLtCnRegular,Arial;
+    margin: 0 2px;
+    padding: 8px 1px;
+}
+#container_inner {
+    width: 46.4em;
+	 padding-left: .8em;
+    padding-right: .8em;
+}
+
+.form_title {
+  padding-bottom: 18px;
+  padding-top: 12px;
+}
+#sidebar_right {
+  margin-bottom: -20px;
+  margin-top: -69px;
+  width: 256px;
+}
+.form_inner {
+  padding-bottom: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+#containt_left {
+  float: left;
+  padding-top: 84px;
+  width: 474px; padding-bottom: 25px;
+}
+#home_services {
+    background:  #F2F2F2;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+#home_services li {
+  margin-right: 10px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  width: 218px;
+}
+.home_serv_title {
+  font: 14px GothamMediumRegular,Arial,Helvetica,sans-serif;
+}
+.home_serv_text {
+  background: url(../images/service_text_small_bg.gif) repeat-y center top transparent;
+
+}
+.home_serv_text_btm{ 	background: url(../images/small_text_btm.gif) no-repeat center bottom; padding-left: 12px;
+  padding-right: 11px;
+  padding-top: 15px;}
+  
+.sider_product ul li {
+
+
+  margin: 0 10px 10px 0;
+  padding: 9px 9px 0;
+  width: 132px;
+}
+.sider_product ul li span {
+  padding: 3px 0;
+  width: 132px;
+}
+input.form_input {
+  padding: 5px 10px;
+}
+#home_partners ul li {
+	float: left;
+	width: 100px; margin:0 6px;	min-height:55px;
+}
+.footer_inner {
+  width: 48em;
+}
+.footer_inner ul li {
+  padding: 10px;
+}
+
+/*------------Account Type css-------------*/
+
+#header_middle_inner_pages {
+ width: 48em;
+	padding:0;
+}
+
+#header_middle_inner_pages .slider_img {
+float: left;
+    padding-top: 0.75em;
+    width: 16.313em;
+
+}
+ #header_middle_inner_pages .slider_text {
+  float: right;
+  padding-top: 1.5em;
+  width: 26.5em;
+}
+#containt_accout_left{float: left;
+padding-top: 38px;
+ width: 474px;}
+
+.partners_box li {
+  float: left;
+  width: 149px; padding:0 5px;
+}
+
+/*-------------online shopping page css---------------*/
+
+
+
+.product_search_inner {
+  padding-right: 10px;
+}
+.product_search_left {
+	float: left;
+	width: 360px;
+}
+.product_search_right {
+	float: right;
+	width: 360px;
+}
+.product_search_collm p {
+  font: 13px/18px Tahoma,Geneva,sans-serif;
+  width: 155px;
+}
+.stock_products_inner ul li {
+  float: left;
+  width: 228px;
+}
+.product_img img{ max-width:90%;} 
+.product_title {
+  color: #0D5C98;
+  font: 19px/22px Tahoma,Geneva,sans-serif;
+  padding-bottom: 12px;
+}
+ul.tabs {
+  height: 31px;
+}
+
+
+.product_prices ul li {
+  margin-right: 4px;
+  width: 94px;
+}
+.product_detail_right {
+    float: right;
+    width: 218px;
+}
+.pricess_collm span {
+  font: 10px Tahoma,Geneva,sans-serif;
+}
+.detail_sel {
+  width: 54px;
+}
+span.price_txt {
+  font: 13px Tahoma,Geneva,sans-serif;
+}
+.product_prices ul li:last-chilc{margin-right:0;}
+
+.purchase_info {
+  margin-right: 5px;
+  margin-top: 20px;
+  width: 153px;
+}
+.purchase_info p {
+  font: 14px GothamBookRegular,Arial,Helvetica,sans-serif;
+}
+
+.chectout01 {
+    width: 265px;
+}
+.item_img {
+  width: 150px;
+}
+ul.tabs li a {
+	padding: 0 8px;
+	font:14px/30px Tahoma, Geneva, sans-serif;
+}
+input.search_products{ margin-left:00px;} 

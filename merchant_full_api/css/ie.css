@@ -1,0 +1,25 @@
+#wrapper_outer{ max-width:100%;
+  min-width:960px;}
+
+#header_top_outer {
+  max-width:100%;
+  min-width:960px;
+}
+#container_outer {
+  max-width:100%;
+  min-width:960px;
+}
+#footer_outer{
+  max-width:100%;
+  min-width:960px;
+}
+#footer_menu{
+	  max-width:100%;
+  min-width:960px;
+}
+#footer_copyright{
+	  max-width:100%;
+  min-width:960px;
+}
+.stock_products_inner ul li{ width:282px;}
+.cart_inner_wrap li.cart_total_collm{  margin:0; }
